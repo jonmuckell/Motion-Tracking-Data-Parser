@@ -5,7 +5,7 @@ Extracts key metrics from motion tracking data (in MVNX / XML format).  Extract 
 Builds under Python v2.7
 
 ## Input Data
-By default data is input in the same source directory as source code. Four sample data files are provided.  However, by default, the code runs a single file (0_Bed_to_ShowerChair_M.mvnx).  You can add the others .mvnx files (or your own data) by uncommentting/editting main.py.   If you input MVNX or XML file follows different formatting rules, you will need to edit MotionCaptureExecutor.py and edit the parsing rules.
+By default data is input in the same source directory as source code. Four sample data files are provided.  However, by default, the code runs a single file (0_Bed_to_ShowerChair_M.mvnx).  You can add the others .mvnx files (or your own data) by uncommenting/editing main.py.   If you input MVNX or XML file follows different formatting rules, you will need to edit MotionCaptureExecutor.py and edit the parsing rules.
 
 ## Results
 By default results are placed in the results.csv
